@@ -1,0 +1,25 @@
+{
+  "spotify": {
+    "raw_docs": 80,
+    "chunks_fixed": 80,
+    "chunks_semantic": 82,
+    "duplicates_removed": 73
+  },
+  "whatsapp": {
+    "raw_docs": 25,
+    "chunks_fixed": 186,
+    "chunks_semantic": 257,
+    "duplicates_removed": 0
+  },
+  "telegram": {
+    "raw_docs": 60,
+    "chunks_fixed": 162,
+    "chunks_semantic": 186,
+    "duplicates_removed": 62
+  },
+  "_total": {
+    "total_chunks": 818,
+    "fixed_chunks": 0,
+    "semantic_chunks": 525
+  }
+}

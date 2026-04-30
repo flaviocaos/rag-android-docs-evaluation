@@ -1,0 +1,6 @@
+{
+  "strategy_id": "rag_a",
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+  "num_chunks": 405,
+  "embedding_dim": 384
+}

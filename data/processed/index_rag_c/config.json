@@ -1,0 +1,6 @@
+{
+  "strategy_id": "rag_c",
+  "model_name": "BAAI/bge-large-en-v1.5",
+  "num_chunks": 413,
+  "embedding_dim": 1024
+}

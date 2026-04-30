@@ -1,0 +1,143 @@
+{
+  "rag_a": {
+    "strategy_id": "rag_a",
+    "num_questions": 31,
+    "avg_f1": 0.2609,
+    "avg_exact_match": 0.0,
+    "avg_semantic_sim": 0.7606,
+    "avg_faithfulness": 0.2993,
+    "avg_latency_ms": 1437.4419,
+    "median_latency_ms": 1260.8,
+    "by_app": {
+      "spotify": {
+        "n": 10,
+        "avg_f1": 0.2827,
+        "avg_semantic": 0.7684,
+        "avg_faithfulness": 0.2658
+      },
+      "whatsapp": {
+        "n": 10,
+        "avg_f1": 0.2151,
+        "avg_semantic": 0.6725,
+        "avg_faithfulness": 0.2071
+      },
+      "telegram": {
+        "n": 11,
+        "avg_f1": 0.2827,
+        "avg_semantic": 0.8336,
+        "avg_faithfulness": 0.4136
+      }
+    },
+    "by_difficulty": {
+      "easy": {
+        "n": 12,
+        "avg_f1": 0.2521,
+        "avg_semantic": 0.7616
+      },
+      "medium": {
+        "n": 15,
+        "avg_f1": 0.2571,
+        "avg_semantic": 0.7473
+      },
+      "hard": {
+        "n": 4,
+        "avg_f1": 0.3017,
+        "avg_semantic": 0.8072
+      }
+    }
+  },
+  "rag_b": {
+    "strategy_id": "rag_b",
+    "num_questions": 31,
+    "avg_f1": 0.2538,
+    "avg_exact_match": 0.0,
+    "avg_semantic_sim": 0.7369,
+    "avg_faithfulness": 0.4385,
+    "avg_latency_ms": 2571.8452,
+    "median_latency_ms": 2196.2,
+    "by_app": {
+      "spotify": {
+        "n": 10,
+        "avg_f1": 0.2514,
+        "avg_semantic": 0.742,
+        "avg_faithfulness": 0.4537
+      },
+      "whatsapp": {
+        "n": 10,
+        "avg_f1": 0.2026,
+        "avg_semantic": 0.6724,
+        "avg_faithfulness": 0.345
+      },
+      "telegram": {
+        "n": 11,
+        "avg_f1": 0.3025,
+        "avg_semantic": 0.7909,
+        "avg_faithfulness": 0.5097
+      }
+    },
+    "by_difficulty": {
+      "easy": {
+        "n": 12,
+        "avg_f1": 0.2484,
+        "avg_semantic": 0.7262
+      },
+      "medium": {
+        "n": 15,
+        "avg_f1": 0.2464,
+        "avg_semantic": 0.7258
+      },
+      "hard": {
+        "n": 4,
+        "avg_f1": 0.2976,
+        "avg_semantic": 0.8106
+      }
+    }
+  },
+  "rag_c": {
+    "strategy_id": "rag_c",
+    "num_questions": 31,
+    "avg_f1": 0.2576,
+    "avg_exact_match": 0.0,
+    "avg_semantic_sim": 0.7227,
+    "avg_faithfulness": 0.4101,
+    "avg_latency_ms": 2785.7903,
+    "median_latency_ms": 2410.8,
+    "by_app": {
+      "spotify": {
+        "n": 10,
+        "avg_f1": 0.2687,
+        "avg_semantic": 0.7409,
+        "avg_faithfulness": 0.4395
+      },
+      "whatsapp": {
+        "n": 10,
+        "avg_f1": 0.2066,
+        "avg_semantic": 0.6294,
+        "avg_faithfulness": 0.2387
+      },
+      "telegram": {
+        "n": 11,
+        "avg_f1": 0.2939,
+        "avg_semantic": 0.7911,
+        "avg_faithfulness": 0.5391
+      }
+    },
+    "by_difficulty": {
+      "easy": {
+        "n": 12,
+        "avg_f1": 0.2449,
+        "avg_semantic": 0.709
+      },
+      "medium": {
+        "n": 15,
+        "avg_f1": 0.2526,
+        "avg_semantic": 0.7081
+      },
+      "hard": {
+        "n": 4,
+        "avg_f1": 0.3145,
+        "avg_semantic": 0.819
+      }
+    }
+  }
+}
